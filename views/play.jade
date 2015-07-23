@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Live Editor Audio playback demo
+  div#sample-live-editor
+
+block tail
+  script window.config = !{JSON.stringify({baseUrl: baseUrl, id: id})};
+  script(src=assetUrl('play.js'))
+

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Live Editor Audio Demo
+  p
+    input#recording-name(type="text")
+  div#sample-live-editor
+  p
+    button.save-recording("disabled") Save Recording
+  h4 Hit the record button to start a new recording.
+  ul.recording-list
+
+block tail
+  script(src=assetUrl('record.js'))
+

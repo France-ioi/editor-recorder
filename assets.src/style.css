@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+#sample-live-editor {
+  padding: 0;
+}
+.save-recording {
+  float: right;
+}
+
+button {
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  text-shadow: none;
+  background-color: #e7e7e7;
+  background-image: linear-gradient(to bottom,#eee,#dcdcdc);
+  background-repeat: repeat-x;
+  border-color: #dcdcdc #dcdcdc #b6b6b6;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  color: #444 !important;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  text-decoration: none !important;
+  transition: box-shadow ease-in-out .15s;
+  -webkit-appearance: none;
+}
+
+button:disabled {
+  background: white;
+  cursor: default;
+}
